@@ -6,5 +6,10 @@
 
 This is a tiny library that provides `Http4sDsl[monix.eval.Task]`.
 
+### build.sbt
+```sbt
+libraryDependencies += "de.lolhens" %% "http4s-monix" % "0.0.1"
+```
+
 ## License
 This project uses the Apache 2.0 License. See the file called LICENSE.
