@@ -2,7 +2,7 @@ organization := "de.lolhens"
 name := "http4s-monix"
 version := "0.0.1-SNAPSHOT"
 
-scalaVersion := "2.13.5"
+scalaVersion := "2.13.6"
 crossScalaVersions := Seq("2.12.13", scalaVersion.value)
 
 ThisBuild / versionScheme := Some("early-semver")
@@ -22,7 +22,7 @@ developers := List(
 
 libraryDependencies ++= Seq(
   "io.monix" %% "monix" % "3.4.0",
-  "org.http4s" %% "http4s-dsl" % "0.21.22",
+  "org.http4s" %% "http4s-dsl" % "0.21.23",
 )
 
 addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1")
