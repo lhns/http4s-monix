@@ -22,7 +22,7 @@ developers := List(
 
 libraryDependencies ++= Seq(
   "io.monix" %% "monix" % "3.4.0",
-  "org.http4s" %% "http4s-dsl" % "0.22.1",
+  "org.http4s" %% "http4s-dsl" % "0.23.0",
 )
 
 addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1")
