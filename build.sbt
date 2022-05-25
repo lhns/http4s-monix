@@ -21,7 +21,7 @@ developers := List(
 )
 
 libraryDependencies ++= Seq(
-  "io.monix" %% "monix" % "3.4.0",
+  "io.monix" %% "monix" % "3.4.1",
   "org.http4s" %% "http4s-dsl" % "0.22.10",
 )
 
